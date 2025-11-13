@@ -64,8 +64,8 @@ h1 .thin{font-weight:400;color:var(--muted);display:block;font-size:20px}
 
 /* PROJECTS */
 .projects{margin-top:44px}
-projects h3{text-align:center;font-size:24px}
-projects-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:18px}
+.projects h3{text-align:center;font-size:24px}
+.projects-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:18px}
 .proj{background:linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.00));padding:12px;border-radius:10px;border:1px solid rgba(255,255,255,0.02);text-align:center}
 .proj img{width:100%;height:160px;object-fit:cover;border-radius:8px}
 .proj h4{margin-top:10px;margin-bottom:0;color:#fff}
