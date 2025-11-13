@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sourav Karmakar — Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <nav class="nav">
+      <div class="brand">Sourav Karmakar</div>
+      <button class="mobile-toggle" id="mobileToggle" aria-label="menu">☰</button>
+      <div class="navlinks" id="navlinks">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <header class="hero" id="home">
+      <div class="hero-left">
+        <div class="hello"><span class="dot"></span><div style="font-weight:700">Hello......</div></div>
+        <h1><span class="thin">I'm Sourav</span> <div class="role">Software Developer</div></h1>
+        <div class="cta">
+          <a class="btn btn-primary" href="#contact">Get a project?</a>
+          <a class="btn btn-outline" href="assets/Resume-Sourav.pdf" target="_blank">My resume</a>
+        </div>
+
+        <div class="skills-row">
+          <div class="skill">JAVA</div>
+          <div class="skill">HTML5</div>
+          <div class="skill">CSS</div>
+          <div class="skill">Javascript</div>
+          <div class="skill">Node.js</div>
+          <div class="skill">React</div>
+          <div class="skill">AUTOCAD</div>
+        </div>
+      </div>
+
+      <div class="portrait">
+        <div class="frame">
+          <img src="assets/IMG_20250820_130925 (1).png" alt="Sourav portrait"/>
+        </div>
+      </div>
+    </header>
+
+    <section class="section" id="about">
+      <aside class="services">
+        <div class="service">
+          <svg width="36" height="36" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="4" width="18" height="14" rx="2" stroke="currentColor" stroke-opacity="0.8" stroke-width="1.2"/></svg>
+          <div>
+            <h4>Website Development</h4>
+            <div class="muted">Responsive websites, e-commerce, landing pages</div>
+          </div>
+        </div>
+
+        <div class="service">
+          <svg width="36" height="36" viewBox="0 0 24 24" fill="none"><path d="M3 7h18M7 21V7" stroke="currentColor" stroke-opacity="0.8" stroke-width="1.2"/></svg>
+          <div>
+            <h4>App Development</h4>
+            <div class="muted">Cross-platform apps and PWA</div>
+          </div>
+        </div>
+
+        <div class="service">
+          <svg width="36" height="36" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-opacity="0.8" stroke-width="1.2"/></svg>
+          <div>
+            <h4>Website Hosting</h4>
+            <div class="muted">Deployments, CD/CI setup, DNS</div>
+          </div>
+        </div>
+      </aside>
+
+      <div class="about">
+        <h2>About me</h2>
+        <p>Hi — I'm Sourav Karmakar, a software developer who enjoys building fast, accessible and maintainable web applications. I started learning web development through small projects and photography editing tools, which taught me to pay close attention to UX and detail. I work primarily with JavaScript (React/Node) and also explore backend systems and DevOps. Outside coding I like photography, tinkering with electronics and contributing to open-source.</p>
+
+        <div class="stats">
+        <div class="stat"><div class="num">05+</div><div class="label">Personal Projects</div></div>
+        <div class="stat"><div class="num">Building</div><div class="label">Practical Skills</div></div>
+        <div class="stat"><div class="num">Fresher</div><div class="label">Ready to Start</div></div>
+        </div><div class="label"></div></div>
+        <div class="stat"><div class="num">100%</div><div class="label">Learning Mindset</div></div>
+        <div class="stat"><div class="num">Fresher</div><div class="label">Ready to Work</div></div>
+        </div><div class="label"></div></div>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <h3>Projects</h3>
+      <div class="projects-grid">
+        <div class="proj">
+          <img src="assets/p1.png" alt="Project 1">
+          <h4>Python Live WebChat </h4>
+        </div>
+        <div class="proj">
+          <img src="assets/p2.png" alt="Project 2">
+          <h4>Website Vulnerability Scanner</h4>
+        </div>
+        <div class="proj">
+          <img src="assets/p3.png" alt="Project 3">
+          <h4>Sodium Detection In Blood</h4>
+        </div>
+        <div class="proj">
+          <img src="assets/p4.png" alt="Project 4">
+          <h4>Amazon Website Clone</h4>
+        </div>
+        <div class="proj">
+          <img src="assets/p5.png" alt="Project 5">
+          <h4>To-Do List Maker</h4>
+        </div>
+        <div class="proj">
+          <img src="assets/p6.png" alt="Project 6">
+          <h4>Sudoku Solver</h4>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="contact-section">
+    <h2>CONTACT</h2>
+    <div class="contact-underline" aria-hidden="true"></div>
+    <p class="contact-note">Feel free to reach out if you have any questions, if you'd like to discuss potential opportunities or even if you just want to be friends, I'd love to chat with you!</p>
+
+
+    <div class="contact-card">
+    <form id="contactForm" class="contact-form" novalidate>
+    <div class="contact-row">
+    <input type="text" id="name" name="name" placeholder="Name" required>
+    <input type="email" id="email" name="email" placeholder="Email" required>
+    </div>
+    <textarea id="message" name="message" placeholder="Message" required></textarea>
+    <button type="submit" class="contact-submit">Submit</button>
+    </form>
+    </div>
+    </section>
+    <footer id="contact">
+      <div>
+        <strong>Let's build something.</strong>
+        <div class="muted"><b>Email</b> <a href="karmakarsourav848@gmail.com" class="accent-link">karmakarsourav848@gmail.com</a></div>
+        <div class="muted"><b>Phone No.-</b> <a href="7872039623" class="accent-link">7872039623</a></div>
+      </div>
+      <div class="copyright">© Sourav Karmakar • All rights reserved</div>
+    </footer>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
